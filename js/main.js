@@ -1,16 +1,14 @@
 function calculate() {
     var type, count, result;
-    type = document.getElementById('typ').value;
-    type = parseInt(type);
-
+    type = document.getElementById('type').value;
     count = document.getElementById('count').value;
+    type = parseInt(type);
     count = parseInt(count);
-    if (count == "") {
-        alert("This field is clear");
+    if (!(Number.isInteger(type) && Number.isInteger(count))) {
+        alert("Укажите числа");
     } else if ((count <= 0) || (count > 1999)) {
         alert("Error of count!");
-    }
-    if (type<0 || type>1000000) {
+    } else if (type < 0 || type > 1000000) {
         alert("Error");
     } else {
         result = type * count;

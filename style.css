@@ -15,7 +15,8 @@ a:link {
 a:visited {
     color: rgba(116, 30, 196, 0.45);
 }
-#main{
+
+#main {
     padding: 0;
     margin: 0;
     height: 100%;
