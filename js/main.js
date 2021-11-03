@@ -6,7 +6,7 @@ function calculate() {
     count = parseInt(count);
     if (!(Number.isInteger(type) && Number.isInteger(count))) {
         alert("Укажите числа");
-    } else if ((count <= 0) || (count > 1999)) {
+    } else if ((count <= 0) || (count > 1000000)) {
         alert("Error of count!");
     } else if (type < 0 || type > 1000000) {
         alert("Error");
