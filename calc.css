@@ -1,7 +1,9 @@
 body{
-    background-size: cover;
-    background: linear-gradient(to bottom right, #ffffff -83%, #000000 186%) no-repeat fixed 20% 73%;
-
+   <!-- background: linear-gradient(to bottom, #000000 -89%, #808080 77%) no-repeat; -->
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
 }
 #main {
     padding: 0;
