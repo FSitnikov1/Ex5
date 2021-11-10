@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="c2312a10-af91-4249-ae4d-c446eec37576" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/calc.css" beforeDir="false" afterPath="$PROJECT_DIR$/calc.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/calc.html" beforeDir="false" afterPath="$PROJECT_DIR$/calc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +48,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File" value="HTML" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Ex7" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -105,7 +105,8 @@
       <workItem from="1635966431082" duration="26000" />
       <workItem from="1635966527621" duration="11000" />
       <workItem from="1635968085278" duration="63000" />
-      <workItem from="1636527659799" duration="164000" />
+      <workItem from="1636527659799" duration="519000" />
+      <workItem from="1636529725943" duration="526000" />
     </task>
     <servers />
   </component>

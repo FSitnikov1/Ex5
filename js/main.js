@@ -1,3 +1,10 @@
+
+window.addEventListener('DOMContentLoaded', function (event) {
+    console.log("DOM fully loaded and parsed");
+    let b = document.getElementById("but1");
+    b.addEventListener("click", calculate);
+});
+
 function calculate() {
     var type, count, result;
     type = document.getElementById('type').value;
